@@ -14,7 +14,11 @@ body{
 header{
     color: white;
     text-align: center;
+    padding: 20px;
+}
 
+h1 {
+    font-weight: bolder;
 }
 
 section{
@@ -26,9 +30,18 @@ section{
     box-shadow:  3px 2px 3px rgba(0, 0, 0, 0.281);
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50%; 
+}
+
 footer{
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 20px;
 }
 
