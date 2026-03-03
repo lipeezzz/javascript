@@ -11,7 +11,7 @@ function carregar() {
     } else if (hora >= 12 && hora < 18) {
         // BOA TARDE!
         img.scr = 'tarde.jpg'
-    } else if (hora >= 18 && hora < 24) {
+    } else if (hora >= 18 && hora < 24){
         // BOA NOITE!
         img.scr = 'noite.jpg'
     }
