@@ -29,7 +29,7 @@ for (var y = 1; y <= 12; y++) {
 //---------------------------------
 
 console.log('Vai começar!!!!')
-for (var b = 1; b <= 20; b++) {
+for (var b = 1; b <= 4; b++) {
     console.log(`passo ${b}`)
 }
 console.log('FIM!')
