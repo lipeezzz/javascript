@@ -4,7 +4,7 @@ let res = document.getElementById('res')
 let valores = []
 
 function isNumero(n) {
-    if(Number(n) >= 1 && NUumber(n) <= 100) {
+    if(Number(n) >= 1 && Number(n) <= 100) {
         return true
     } else {
         return false
@@ -46,6 +46,7 @@ function finalizar() {
         let soma = 0
         let media = 0
         for(let pos in valores) {
+            soma += valores[pos]
             if (valores[pos] > maior)
                 maior = valores[pos]
             if (valores[pos] < menor)
